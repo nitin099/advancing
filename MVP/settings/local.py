@@ -25,7 +25,7 @@ SECRET_KEY = 'jbxpav)u-44$@g#=$(idih7qb_(b5^g&kfnh$8txdk@axdtn06'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [d]
 
 
 # Application definition
@@ -136,6 +136,4 @@ ACCOUNT_ACTIVATIONS_DAYS = 7
 REGISTRATION_AUTO_LOGIN = False
 
 SITE_ID = 1
-
-
 CRISPY_TEMPLATE_PACK = 'bootstrap3'
