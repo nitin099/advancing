@@ -1,0 +1,79 @@
+{% extends "base.html"%}
+
+{% block jumbotron %}
+
+{% block style%}
+<style >
+.navbar-static-top 
+{
+  margin-bottom: 1px;
+  background-color: #2C2F4C;
+
+
+}
+
+	.jumbotron {
+		background-color: rgba(70, 79, 142, 0.66);
+		color:#100F10;
+	}
+</style>
+{% endblock%}
+
+
+<div class="jumbotron">
+<div class='container'>
+	<div class = "row">
+		<div class = "col-sm-6 ">
+        <h1>What is Blog ?</h1>
+        <p>A regularly updated website or web page, typically one run by an individual or small group, that is written in an informal or conversational style.</p>
+        <p class="lead">Here you can post images , comments and can also like and share!!!!!!!
+        </p>
+		<p>
+  <a class="btn btn-lg btn-primary" href="{% url 'list'%}" role="button">View Blog </a>
+        </p>
+        
+ <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/hgi2MYAFgE8" frameborder="0" allowfullscreen></iframe> -->
+      	</div>
+   <div class='col-sm-6'>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/NjwUHXoi8lM" frameborder="0" allowfullscreen></iframe>
+
+
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/JlgkMXex2DI" frameborder="0" allowfullscreen></iframe>
+ -->
+      
+    </div>
+    </div>
+    </div>
+</div>
+
+
+
+
+
+<div class="jumbotron">
+<div class='container'>
+  <div class = "row">
+    <div class = "col-sm-6 ">
+        <!-- <h1>What is Blog ?</h1>
+        <p>A regularly updated website or web page, typically one run by an individual or small group, that is written in an informal or conversational style.</p>
+        <p class="lead">Here you can post images , comments and can also like and share!!!!!!!
+        </p>
+    <p>
+  <a class="btn btn-lg btn-primary" href="" role="button">View navbar docs &raquo;</a>
+        </p> -->
+        
+ <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/hgi2MYAFgE8" frameborder="0" allowfullscreen></iframe> -->
+      </div>
+   <!-- <div class='col-sm-6'>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/NjwUHXoi8lM" frameborder="0" allowfullscreen></iframe> -->
+
+
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/JlgkMXex2DI" frameborder="0" allowfullscreen></iframe>
+ -->
+      
+    </div>
+    </div>
+    </div>
+</div>
+
+{% endblock jumbotron%}

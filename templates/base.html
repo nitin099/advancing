@@ -1,0 +1,47 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Nitin</title>
+
+    {% include 'static.html'%}
+
+    <!-- Bootstrap core CSS -->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+  </head>
+
+  <body>
+
+    {% include "navbar.html" %}
+  
+      {% block jumbotron%}
+
+
+    {% endblock %}
+    
+    <div class="container">
+    {% block content%}
+    {% endblock%}
+ 
+    </div> <!-- /container -->
+
+   <div class='row'>
+   <div class='col-sm-6 col-sm-offset-1'>
+    
+    <h1></h1>
+    </div> 
+    </div>
+    </div>
+{% include 'java.html'%}
+  </body>
+
+</html>
